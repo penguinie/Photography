@@ -1,0 +1,214 @@
+/*Navigation Bar*/
+.nav-link{ text-transform: uppercase;}
+.nav-link:hover{ border-top: 0.2em solid red; }
+.sub-header{ font-size: 0.8em; }
+@media (min-width: 768px){
+	.nav-link{ font-size: 0.9em; }
+}
+/*Carousel*/
+@media (max-width: 768px) {
+	.sli-img{
+		height: 15em;
+	}
+	.carousel-caption p{
+	font-size: 2em;
+	}
+}
+
+/*Portfolio*/
+.portfolio .display-4{
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 2em;
+}
+.portfolio .display-3{
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	font-size: 1em;
+}
+.portfolio img{
+	width: 100%;
+	height: 20em;
+	position: relative;
+	z-index: 0;
+}
+.portfolio .do-hover{
+	position: absolute;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 2em;
+	z-index: 1;
+	top: 30%;
+	left: 10%;
+	display: none;
+}
+.portfolio a{ cursor: pointer; }
+
+/*Modal*/
+.modal-body{
+	padding: 0px;
+}
+.modal-body img{
+	width: 100%;
+}
+
+/*Parallax*/
+.parallax { 
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("/designs/parallax.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-content .sub-display span{
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+.parallax-content .display-3{
+	border: 0.03em solid white;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0.1em;
+}
+@media (min-width: 768px){
+	.parallax-content{
+	margin-left: 10em;
+	}
+}
+@media (max-width: 768px){
+	.parallax-content{
+		text-align: center;
+		width: 95%;
+		margin: 0px auto;
+	}
+	.parallax-content .display-3{
+		font-size: 3em;
+	}
+}
+
+/*Work*/
+.work{ background-color: #111; }
+.work-heading{
+	text-align: center;
+	margin: 0px auto;
+}
+.work-heading .display-4{
+	border: 0.03em solid white;
+	text-transform: uppercase;
+}
+@media (max-width: 768px){
+	.work-heading .display-4{
+	font-size: 2em;
+	}
+}
+.work-heading .sub-display{
+	letter-spacing: 0.3em;
+}
+.work .row input{
+	display: block;
+	width: 100%;
+	height: 3.2em;
+	background-color: #111;
+	border: 1px solid white;
+	color: white;
+	padding: 1em;
+	margin-bottom: 3em;
+	letter-spacing: 0.2em;
+}
+.work textarea{
+	background-color: #111;
+	width: 100%;
+	letter-spacing: 0.2em;
+	padding: 1em;
+	box-sizing: border-box;
+	color: white;
+	border: 1px solid white;
+}
+form button{
+	color: white;
+	background-color: transparent;
+	text-transform: uppercase;
+	border: 0.03em solid white;
+	letter-spacing: 0.2em;
+	padding: 1em 2em;
+}
+@media (max-width: 768px){
+	form button{ margin-top: 2em; }
+}
+/*Footer*/
+footer{
+	display: block;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+.footer-copyright {
+  height: 60px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/*Blog Page*/
+/*Jumbotron*/
+.jumbotron{
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("/designs/slide1.jpeg");
+	background-size: cover;
+	margin-bottom: 0px;
+}
+.jumbotron .container{
+	color: white;
+}
+.jumbotron p{
+	border: 0.03em solid white;
+	text-transform: uppercase;
+}
+@media (min-width: 768px) {
+	.jumbotron{
+		height: 40em;
+	}
+}
+@media (max-width: 768px) {
+	.jumbotron p{
+		font-size: 2em;
+	}
+}
+
+/*Blog*/
+.blog{ margin: 0px auto; }
+.blog h1{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+.blog .sub-heading{
+	font-size: 0.7em;
+	letter-spacing: 0.2em;
+}
+.blog .each-blog{
+	width: 70%;
+}
+.each-blog p{
+	letter-spacing: 0.1em;
+	font-size: 0.9em;
+}
+.blog img{
+	width: 100%;
+	height: auto;
+}
+.blog .btn{
+	background-color: #000;
+	color: white;
+	letter-spacing: 0.2em;
+	padding: 0.5em 1em;
+	border-radius: 0px;
+}
